@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Handler\Console">
       <UniqueIdentifier>{14a96cc6-05d7-46c2-b313-01c6e8010a6e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Handler\Program">
+      <UniqueIdentifier>{7cb54e06-9bdf-40a3-ab75-1c7d70b02a21}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="outputConsole.cpp">
@@ -27,9 +30,15 @@
     <ClCompile Include="consoleManager.cpp">
       <Filter>Source Files\Handler\Console</Filter>
     </ClCompile>
+    <ClCompile Include="sleepManager.cpp">
+      <Filter>Source Files\Handler\Program</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="consoleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sleepManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

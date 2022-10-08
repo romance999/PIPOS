@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="consoleManager.cpp" />
     <ClCompile Include="outputConsole.cpp" />
+    <ClCompile Include="sleepManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="consoleManager.h" />
+    <ClInclude Include="sleepManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
