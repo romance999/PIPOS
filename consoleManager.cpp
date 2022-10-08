@@ -15,6 +15,11 @@ void consoleManager::centerprintf(string color, string text)
 	cout << "\033[" << color << "m" << text << endl; // should be centered now
 }
 
+void consoleManager::clearConsole()
+{
+	std::cout << "\x1B[2J\x1B[H";
+}
+
 void consoleManager::Get()
 {
 	// pause console
