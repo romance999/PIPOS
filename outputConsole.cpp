@@ -27,7 +27,8 @@ int main()
 	consoleManager.centerprintf(Green, "COPYRIGHT 2075 ROBCO(R)");
 	consoleManager.centerprintf(Green, "LOAD ROM(1): DEITRIX 303");
 	consoleManager.centerprintf(Green, "**************************************************");
-	sleepManager.Sleep(100);
+	sleepManager.Sleep(800);
+	consoleManager.clearConsole();
 
 	// pip started up, show the overseer's thumbs up
 	consoleManager.printf(Green, "                                               NN    N                                              ");
@@ -49,7 +50,7 @@ int main()
 	consoleManager.printf(Green, "                                             N                                                      ");
 
 	consoleManager.printf(Green, "");
-	consoleManager.printf(Green, "                                           INITIATING                                                ");
+	consoleManager.printf(Green, "                                           INITIATING...                                                ");
 
 	consoleManager.Get();
 }
