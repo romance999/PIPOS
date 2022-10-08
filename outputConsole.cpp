@@ -22,11 +22,11 @@ int main()
 
 	// startup
 	sleepManager.Sleep(50);
-	consoleManager.printf(Green, "*************************************************");
-	consoleManager.printf(Green, "*************** PIP-OS(R) V7.1.0.8 ***************");
-	consoleManager.printf(Green, "COPYRIGHT 2075 ROBCO(R)");
-	consoleManager.printf(Green, "LOAD ROM(1): DEITRIX 303");
-	consoleManager.printf(Green, "**************************************************");
+	consoleManager.centerprintf(Green, "*************************************************");
+	consoleManager.centerprintf(Green, "*************** PIP-OS(R) V7.1.0.8 ***************");
+	consoleManager.centerprintf(Green, "COPYRIGHT 2075 ROBCO(R)");
+	consoleManager.centerprintf(Green, "LOAD ROM(1): DEITRIX 303");
+	consoleManager.centerprintf(Green, "**************************************************");
 	sleepManager.Sleep(100);
 
 	// pip started up, show the overseer's thumbs up
