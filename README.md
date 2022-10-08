@@ -15,3 +15,9 @@ C++ is faster than my most used language C#. This will be best for portable proc
 ```
 Since it will be faster it will use less resources therefore increasing battery lifetime
 ```
+
+## Bugs
+If you are expereincing a bug, you can make a report [here](https://github.com/romance999/PIPOS/issues)
+
+## Pull requests
+If you would like to make a pull request for me to review your code you can go [here](https://github.com/romance999/PIPOS/pulls)
