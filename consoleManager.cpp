@@ -17,7 +17,7 @@ void consoleManager::centerprintf(string color, string text)
 
 void consoleManager::clearConsole()
 {
-	std::cout << "\x1B[2J\x1B[H";
+	cout << "\x1B[2J\x1B[H";
 }
 
 void consoleManager::Get()
