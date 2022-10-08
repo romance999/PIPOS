@@ -10,3 +10,8 @@ This is intended to be ran on some sort of arm mounted device, [example](https:/
 ```
 C++ is faster than my most used language C#. This will be best for portable processors due to it being intended for handheld.
 ```
+
+2.) Battery
+```
+Since it will be faster it will use less resources therefore increasing battery lifetime
+```
