@@ -5,7 +5,7 @@ using namespace std;
 
 void consoleManager::printf(string color, string text)
 {
-	cout << "\033[" << color << "m" << text;
+	cout << "\033[" << color << "m" << text << endl;
 }
 
 void consoleManager::Get()
