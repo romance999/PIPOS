@@ -1,5 +1,6 @@
 #include <iostream>
 #include "consoleManager.h"
+#include "sleepManager.h"
 
 int main()
 {
@@ -15,10 +16,40 @@ int main()
 
 	// define handlers
 	consoleManager consoleManager;
+	sleepManager sleepManager;
 
 	// code starts here
 
 	// startup
-	consoleManager.printf(Green, " *************** PIP-OS(R) V7.1.0.8 ***************");
+	sleepManager.Sleep(50);
+	consoleManager.printf(Green, "*************************************************");
+	consoleManager.printf(Green, "*************** PIP-OS(R) V7.1.0.8 ***************");
+	consoleManager.printf(Green, "COPYRIGHT 2075 ROBCO(R)");
+	consoleManager.printf(Green, "LOAD ROM(1): DEITRIX 303");
+	consoleManager.printf(Green, "**************************************************");
+	sleepManager.Sleep(100);
+
+	// pip started up, show the overseer's thumbs up
+	consoleManager.printf(Green, "                                               NN    N                                              ");
+	consoleManager.printf(Green, "                                                ddddd                                               ");
+	consoleManager.printf(Green, "                                        N      dddddd                                               ");
+	consoleManager.printf(Green, "                                        NdN     dddddN                                              ");
+	consoleManager.printf(Green, "                                        ddd NNN dddd  N                                             ");
+	consoleManager.printf(Green, "                                        ddddhhhhhdhdhhhdN                                           ");
+	consoleManager.printf(Green, "                                        NNN    hhhhhhhhhh                                           ");
+	consoleManager.printf(Green, "                                              NhhhhhhhhhdN                                          ");
+	consoleManager.printf(Green, "                                             Nhhhhhhhhd                                             ");
+	consoleManager.printf(Green, "                                               hhhhhhh                                              ");
+	consoleManager.printf(Green, "                                             Nhhhhhhhhd                                             ");
+	consoleManager.printf(Green, "                                               hhhhhhh                                              ");
+	consoleManager.printf(Green, "                                              dhhhdhhhN                                             ");
+	consoleManager.printf(Green, "                                             Nhhh  hhhN                                             ");
+	consoleManager.printf(Green, "                                             dhhd  hh                                               ");
+	consoleManager.printf(Green, "                                             dd   N   N                                             ");
+	consoleManager.printf(Green, "                                             N                                                      ");
+
+	consoleManager.printf(Green, "");
+	consoleManager.printf(Green, "                                           INITIATING                                                ");
+
 	consoleManager.Get();
 }
